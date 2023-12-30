@@ -273,7 +273,7 @@ class PusherChannelsClientLifeCycleController {
     _connectionCompleter = Completer();
     final fixatedLifeCycleCount = ++_currentLifeCycleCount;
     _changeLifeCycleState(PusherChannelsClientLifeCycleState.reconnecting);
-    await _disconnect();
+    // await _disconnect();
     if (fixatedLifeCycleCount < _currentLifeCycleCount) {
       return;
     }
