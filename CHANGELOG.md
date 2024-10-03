@@ -1,3 +1,9 @@
+## 1.2.3
+- Updated dependency: `pinenacl: ^0.6.0`
+
+## 1.2.2+1
+- Fixed the licence url in README
+
 ## 1.2.2
 - Added parameter `overrideContentTypeHeader` into the factory constructors of `EndpointAuthorizableChannelTokenAuthorizationDelegate` to opt
 overriding the content type header. It's `true` by default.
